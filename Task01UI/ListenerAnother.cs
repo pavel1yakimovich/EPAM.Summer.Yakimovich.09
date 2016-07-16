@@ -7,6 +7,9 @@ using Task01Logic;
 
 namespace Task01UI
 {
+    /// <summary>
+    /// Another test listener of event
+    /// </summary>
     sealed class ListenerAnother
     {
         public ListenerAnother(TimeCounter timeCounter)
