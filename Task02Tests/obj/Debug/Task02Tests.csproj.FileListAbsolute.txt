@@ -1,0 +1,9 @@
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task02Tests\obj\Debug\Task02Tests.csprojResolveAssemblyReference.cache
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task02Tests\bin\Debug\Task02Tests.dll
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task02Tests\bin\Debug\Task02Tests.pdb
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task02Tests\bin\Debug\nunit.framework.dll
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task02Tests\bin\Debug\Task02Logic.dll
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task02Tests\bin\Debug\Task02Logic.pdb
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task02Tests\bin\Debug\nunit.framework.xml
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task02Tests\obj\Debug\Task02Tests.dll
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task02Tests\obj\Debug\Task02Tests.pdb

@@ -1,0 +1,5 @@
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task02Logic\bin\Debug\Task02Logic.dll
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task02Logic\bin\Debug\Task02Logic.pdb
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task02Logic\obj\Debug\Task02Logic.csprojResolveAssemblyReference.cache
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task02Logic\obj\Debug\Task02Logic.dll
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task02Logic\obj\Debug\Task02Logic.pdb

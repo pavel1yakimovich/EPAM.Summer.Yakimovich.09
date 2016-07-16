@@ -1,5 +1,4 @@
 E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task01Logic\bin\Debug\Task01Logic.dll
 E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task01Logic\bin\Debug\Task01Logic.pdb
-E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task01Logic\obj\Debug\Task01Logic.csprojResolveAssemblyReference.cache
 E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task01Logic\obj\Debug\Task01Logic.dll
 E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task01Logic\obj\Debug\Task01Logic.pdb

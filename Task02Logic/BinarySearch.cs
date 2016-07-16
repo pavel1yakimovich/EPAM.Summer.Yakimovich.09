@@ -21,27 +21,25 @@ namespace Task02Logic
         {
             if (ReferenceEquals(array, null) || ReferenceEquals(comparison, null))
                 throw new ArgumentNullException();
+            
+            int left = 0;
+            int right = array.Length;
+            int mid = 0;
 
-            int i = -1;
-            int low = 0, high = array.Length, mid;
-            while (low < high)
+            while (!(left >= right))
             {
-                mid = (low + high) / 2;
-                if (comparison(value, array[mid]) == 0)
-                {
-                    return i;
-                }
-                if (comparison(value, array[mid]) == -1)
-                {
-                    high = mid;
-                }
+                mid = left + (right - left) / 2;
+
+                if (comparison(array[mid],value) == 0)
+                    return mid;
+
+                if (comparison(array[mid], value) == 1)
+                    right = mid;
                 else
-                {
-                    low = mid + 1;
-                }
+                    left = mid + 1;
             }
 
-            return i;
+            return -1;
         }
 
         /// <summary>
@@ -51,7 +49,7 @@ namespace Task02Logic
         /// <param name="array">array</param>
         /// <param name="value">value we want to find</param>
         /// <returns></returns>
-        private static int Search<T>(T[] array, T value)
+        public static int Search<T>(T[] array, T value)
         {
             if (ReferenceEquals(array, null))
                 throw new ArgumentNullException();
