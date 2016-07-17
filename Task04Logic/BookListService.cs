@@ -10,9 +10,9 @@ namespace Task04Logic
     {
         private readonly IBookListStorage _storage;
 
-        public BookListService()
+        public BookListService(BookListStorageCreator creator, string fileName)
         {
-            _storage = new BinaryBookListStorage("AutoCreatedFile");
+            _storage = creator.Create(fileName);
         }
 
         public BookListService(IBookListStorage storage)
