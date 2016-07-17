@@ -7,7 +7,7 @@ using NLog;
 
 namespace Task04Logic
 {
-    public class BookListService
+    public sealed class BookListService
     {
         private static Logger logger = LogManager.GetCurrentClassLogger();
         private readonly IBookListStorage _storage;

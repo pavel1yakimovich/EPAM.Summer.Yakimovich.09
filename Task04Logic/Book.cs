@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task04Logic
 {
-    public class Book : IEquatable<Book>, IComparable<Book>, IComparable
+    public sealed class Book : IEquatable<Book>, IComparable<Book>, IComparable
     {
         public string Author { get; }
 
