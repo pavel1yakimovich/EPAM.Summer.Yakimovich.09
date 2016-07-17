@@ -39,7 +39,7 @@ namespace Task04Logic
                     books.Add(new Book(author, title, pages, published));
                 }
 
-                fs.Close();
+                r.Close();
                 logger.Info("books have been loaded from file");
                 return books;
             }
@@ -69,8 +69,7 @@ namespace Task04Logic
                     w.Write(b.Published);
                 }
 
-                w.Flush();
-                fs.Close();
+                w.Close();
 
                 logger.Info("book have been saved to file");
             }

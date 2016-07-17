@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using NLog;
@@ -15,6 +17,8 @@ namespace Task04Logic
         public BookListService(BookListStorageCreator creator, string fileName)
         {
             _storage = creator.Create(fileName);
+            FileStream fs = File.Open(fileName, FileMode.OpenOrCreate);
+            fs.Close();
         }
 
         public BookListService(IBookListStorage storage)
@@ -33,6 +37,11 @@ namespace Task04Logic
                 return;
             }
             List<Book> books = _storage.LoadBooks();
+            if (ReferenceEquals(books, null))
+            {
+                logger.Info("no books in storage");
+                return;
+            }
             if (books.Contains(book))
             {
                 logger.Info($"books already contains the book {book}");
@@ -55,6 +64,11 @@ namespace Task04Logic
                 return;
             }
             List<Book> books = _storage.LoadBooks();
+            if (ReferenceEquals(books, null))
+            {
+                logger.Info("no books in storage");
+                return;
+            }
             if (!books.Remove(book))
             {
                 logger.Error("no such book");
@@ -75,6 +89,11 @@ namespace Task04Logic
         public Book FindBookByTag(string author, string title, int pages, int published)
         {
             List<Book> books = _storage.LoadBooks();
+            if (ReferenceEquals(books, null))
+            {
+                logger.Info("no books in storage");
+                return null;
+            }
             Book temp = new Book(author, title, pages, published);
             foreach (Book b in books)
             {
@@ -101,6 +120,11 @@ namespace Task04Logic
                 return;
             }
             List<Book> books = _storage.LoadBooks();
+            if (ReferenceEquals(books, null))
+            {
+                logger.Info("no books in storage");
+                return;
+            }
             books.Sort(comparison);
             _storage.SaveBooks(books);
             logger.Info("Books have been sorted");
