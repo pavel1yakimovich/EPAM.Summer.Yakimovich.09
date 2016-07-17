@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task04Logic
 {
-    public class Book : IEquatable<Book>, IComparable<Book>
+    public class Book : IEquatable<Book>, IComparable<Book>, IComparable
     {
         public string Author { get; }
 
@@ -27,6 +27,20 @@ namespace Task04Logic
         public int CompareTo(Book other)
         {
             return this.Pages.CompareTo(other.Pages);
+        }
+
+
+        public int CompareTo(object obj)
+        {
+            try
+            {
+                Book book = (Book)obj;
+            }
+            catch (Exception)
+            {
+                throw new ArgumentException();
+            }
+            return this.Pages.CompareTo(obj);
         }
 
         public bool Equals(Book other)

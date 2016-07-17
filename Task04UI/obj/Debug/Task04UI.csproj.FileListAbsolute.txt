@@ -6,3 +6,6 @@ E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task04UI\bin\Debug\Task04Logi
 E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task04UI\obj\Debug\Task04UI.csprojResolveAssemblyReference.cache
 E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task04UI\obj\Debug\Task04UI.exe
 E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task04UI\obj\Debug\Task04UI.pdb
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task04UI\bin\Debug\NLog.config
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task04UI\bin\Debug\NLog.dll
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task04UI\bin\Debug\NLog.xml

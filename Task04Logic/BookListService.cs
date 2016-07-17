@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NLog;
 
 namespace Task04Logic
 {
     public class BookListService
     {
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         private readonly IBookListStorage _storage;
 
         public BookListService(BookListStorageCreator creator, string fileName)
@@ -25,9 +27,20 @@ namespace Task04Logic
         /// <param name="book">book</param>
         public void AddBook(Book book)
         {
+            if (ReferenceEquals(book, null))
+            {
+                logger.Error("book has null reference");
+                return;
+            }
             List<Book> books = _storage.LoadBooks();
+            if (books.Contains(book))
+            {
+                logger.Info($"books already contains the book {book}");
+                return;
+            }
             books.Add(book);
             _storage.SaveBooks(books);
+            logger.Info($"book {book} has been added");
         }
   
         /// <summary>
@@ -36,9 +49,19 @@ namespace Task04Logic
         /// <param name="book">book</param>
         public void RemoveBook(Book book)
         {
+            if (ReferenceEquals(book, null))
+            {
+                logger.Error("book has null reference");
+                return;
+            }
             List<Book> books = _storage.LoadBooks();
-            books.Remove(book);
+            if (!books.Remove(book))
+            {
+                logger.Error("no such book");
+                return;
+            }
             _storage.SaveBooks(books);
+            logger.Info($"book {book} has been deleted");
         }
 
         /// <summary>
@@ -55,10 +78,15 @@ namespace Task04Logic
             Book temp = new Book(author, title, pages, published);
             foreach (Book b in books)
             {
-                if (b.Equals(temp)) return b;
+                if (b.Equals(temp))
+                {
+                    logger.Info($"book {b} was found in storage");
+                    return b;
+                }
             }
 
-            throw new ArgumentException("No such book");
+            logger.Error("no such book");
+            return null;
         }
 
         /// <summary>
@@ -67,9 +95,15 @@ namespace Task04Logic
         /// <param name="comparison">methos of comparison</param>
         public void SortBooksByTag(Comparison<Book> comparison)
         {
+            if (ReferenceEquals(comparison, null))
+            {
+                logger.Error("comparison reference is null");
+                return;
+            }
             List<Book> books = _storage.LoadBooks();
             books.Sort(comparison);
             _storage.SaveBooks(books);
+            logger.Info("Books have been sorted");
         }
     }
 }

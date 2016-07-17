@@ -3,3 +3,6 @@ E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task04Logic\bin\Debug\Task04L
 E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task04Logic\obj\Debug\Task04Logic.csprojResolveAssemblyReference.cache
 E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task04Logic\obj\Debug\Task04Logic.dll
 E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task04Logic\obj\Debug\Task04Logic.pdb
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task04Logic\bin\Debug\NLog.config
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task04Logic\bin\Debug\NLog.dll
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task04Logic\bin\Debug\NLog.xml

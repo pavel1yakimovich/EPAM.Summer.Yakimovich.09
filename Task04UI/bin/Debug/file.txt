@@ -1,0 +1,19 @@
+2016-07-17 20:11:30.0275|INFO|Task04Logic.BinaryBookListStorage|books have been loaded from file
+2016-07-17 20:11:30.1596|INFO|Task04Logic.BinaryBookListStorage|book have been saved to file
+2016-07-17 20:11:30.1726|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-17 20:11:30.1856|INFO|Task04Logic.BinaryBookListStorage|books have been loaded from file
+2016-07-17 20:11:30.2096|INFO|Task04Logic.BinaryBookListStorage|book have been saved to file
+2016-07-17 20:11:30.2096|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-17 20:11:30.2337|INFO|Task04Logic.BinaryBookListStorage|books have been loaded from file
+2016-07-17 20:11:30.2477|INFO|Task04Logic.BinaryBookListStorage|book have been saved to file
+2016-07-17 20:11:30.2597|INFO|Task04Logic.BookListService|book Author: q; Title: r; Number of pages: 1; Year of publishing: 2 has been added
+2016-07-17 20:11:30.2727|INFO|Task04Logic.BinaryBookListStorage|books have been loaded from file
+2016-07-17 20:11:30.2967|INFO|Task04Logic.BinaryBookListStorage|book have been saved to file
+2016-07-17 20:11:30.3087|INFO|Task04Logic.BookListService|book Author: q; Title: t; Number of pages: 4; Year of publishing: 2 has been added
+2016-07-17 20:11:30.3237|INFO|Task04Logic.BinaryBookListStorage|books have been loaded from file
+2016-07-17 20:11:30.3467|INFO|Task04Logic.BinaryBookListStorage|book have been saved to file
+2016-07-17 20:11:30.3587|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-17 20:11:30.3748|INFO|Task04Logic.BinaryBookListStorage|books have been loaded from file
+2016-07-17 20:11:30.3868|INFO|Task04Logic.BookListService|book Author: q; Title: r; Number of pages: 1; Year of publishing: 2 was found in storage
+2016-07-17 20:11:30.4008|INFO|Task04Logic.BinaryBookListStorage|books have been loaded from file
+2016-07-17 20:11:30.4158|ERROR|Task04Logic.BookListService|no such book

@@ -16,6 +16,7 @@ namespace Task04UI
             Book book2 = new Book("q", "e", 3, 2);
             Book book3 = new Book("q", "r", 1, 2);
             Book book4 = new Book("q", "t", 4, 2);
+            Book book5 = new Book("q", "t", 4, 3);
 
             string fileName = "source.txt";
             
@@ -31,6 +32,8 @@ namespace Task04UI
 
             Console.WriteLine(service.FindBookByTag(book3.Author, book3.Title, 
                 book3.Pages, book3.Published).ToString());
+            service.RemoveBook(book5);
+
             Console.ReadKey();
 
         }
