@@ -424,3 +424,147 @@
 2016-07-17 23:10:34.8236|INFO|Task04Logic.BookListService|no books in storage
 2016-07-17 23:10:34.8496|ERROR|Task04Logic.BinaryBookListStorage|cannot load books
 2016-07-17 23:10:34.8496|INFO|Task04Logic.BookListService|no books in storage
+2016-07-17 23:13:28.0371|INFO|Task04Logic.BinaryBookListStorage|books have been loaded from file
+2016-07-17 23:13:28.0941|INFO|Task04Logic.BinaryBookListStorage|book have been saved to file
+2016-07-17 23:13:28.1012|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-17 23:13:28.1432|ERROR|Task04Logic.BinaryBookListStorage|cannot load books
+2016-07-17 23:13:28.1472|INFO|Task04Logic.BookListService|no books in storage
+2016-07-17 23:13:28.1612|ERROR|Task04Logic.BinaryBookListStorage|cannot load books
+2016-07-17 23:13:28.1612|INFO|Task04Logic.BookListService|no books in storage
+2016-07-17 23:13:28.1782|ERROR|Task04Logic.BinaryBookListStorage|cannot load books
+2016-07-17 23:13:28.1782|INFO|Task04Logic.BookListService|no books in storage
+2016-07-17 23:13:28.2122|ERROR|Task04Logic.BinaryBookListStorage|cannot load books
+2016-07-17 23:13:28.2122|INFO|Task04Logic.BookListService|no books in storage
+2016-07-17 23:13:28.2352|ERROR|Task04Logic.BinaryBookListStorage|cannot load books
+2016-07-17 23:13:28.2412|INFO|Task04Logic.BookListService|no books in storage
+2016-07-17 23:13:28.2663|ERROR|Task04Logic.BinaryBookListStorage|cannot load books
+2016-07-17 23:13:28.2723|INFO|Task04Logic.BookListService|no books in storage
+2016-07-18 16:57:01.9279|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-18 16:57:01.9598|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-18 16:57:01.9598|INFO|Task04Logic.BookListService|book Author: q; Title: r; Number of pages: 1; Year of publishing: 2 has been added
+2016-07-18 16:57:01.9843|INFO|Task04Logic.BookListService|book Author: q; Title: t; Number of pages: 4; Year of publishing: 2 has been added
+2016-07-18 16:57:01.9888|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-18 16:57:01.9888|INFO|Task04Logic.BookListService|book Author: q; Title: r; Number of pages: 1; Year of publishing: 2 was found in list
+2016-07-18 16:57:02.0189|ERROR|Task04Logic.BookListService|no such book
+2016-07-18 16:59:29.6468|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-18 16:59:29.7168|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-18 16:59:29.7499|INFO|Task04Logic.BookListService|book Author: q; Title: r; Number of pages: 1; Year of publishing: 2 has been added
+2016-07-18 16:59:29.7569|INFO|Task04Logic.BookListService|book Author: q; Title: t; Number of pages: 4; Year of publishing: 2 has been added
+2016-07-18 16:59:29.7569|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-18 16:59:29.7569|INFO|Task04Logic.BookListService|book Author: q; Title: r; Number of pages: 1; Year of publishing: 2 was found in list
+2016-07-18 16:59:29.7739|ERROR|Task04Logic.BookListService|no such book
+2016-07-18 16:59:29.8149|INFO|Task04Logic.BinaryBookListStorage|list has been saved to file
+2016-07-18 16:59:29.8239|INFO|Task04Logic.BinaryBookListStorage|list has been loaded from file
+2016-07-18 17:00:02.5288|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-18 17:00:02.5789|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-18 17:00:02.5849|INFO|Task04Logic.BookListService|book Author: q; Title: r; Number of pages: 1; Year of publishing: 2 has been added
+2016-07-18 17:00:02.5849|INFO|Task04Logic.BookListService|book Author: q; Title: t; Number of pages: 4; Year of publishing: 2 has been added
+2016-07-18 17:00:02.6079|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-18 17:00:02.6639|INFO|Task04Logic.BookListService|book Author: q; Title: r; Number of pages: 1; Year of publishing: 2 was found in list
+2016-07-18 17:00:02.6900|ERROR|Task04Logic.BookListService|no such book
+2016-07-18 17:00:02.6990|INFO|Task04Logic.BinaryBookListStorage|list has been saved to file
+2016-07-18 17:00:02.6990|INFO|Task04Logic.BinaryBookListStorage|list has been loaded from file
+2016-07-18 17:01:10.5391|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-18 17:01:10.6102|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-18 17:01:10.6162|INFO|Task04Logic.BookListService|book Author: q; Title: r; Number of pages: 1; Year of publishing: 2 has been added
+2016-07-18 17:01:10.6162|INFO|Task04Logic.BookListService|book Author: q; Title: t; Number of pages: 4; Year of publishing: 2 has been added
+2016-07-18 17:01:10.6162|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-18 17:01:10.6332|INFO|Task04Logic.BookListService|book Author: q; Title: r; Number of pages: 1; Year of publishing: 2 was found in list
+2016-07-18 17:01:10.6332|ERROR|Task04Logic.BookListService|no such book
+2016-07-18 17:01:10.6482|INFO|Task04Logic.BinaryBookListStorage|list has been saved to file
+2016-07-18 17:01:10.7082|ERROR|Task04Logic.BinaryBookListStorage|cannot load books
+2016-07-18 17:01:35.5376|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-18 17:01:35.5746|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-18 17:01:35.5746|INFO|Task04Logic.BookListService|book Author: q; Title: r; Number of pages: 1; Year of publishing: 2 has been added
+2016-07-18 17:01:35.5856|INFO|Task04Logic.BookListService|book Author: q; Title: t; Number of pages: 4; Year of publishing: 2 has been added
+2016-07-18 17:01:35.5856|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-18 17:01:35.5986|INFO|Task04Logic.BookListService|book Author: q; Title: r; Number of pages: 1; Year of publishing: 2 was found in list
+2016-07-18 17:01:35.5986|ERROR|Task04Logic.BookListService|no such book
+2016-07-18 17:01:35.5986|INFO|Task04Logic.BinaryBookListStorage|list has been saved to file
+2016-07-18 17:01:35.6276|ERROR|Task04Logic.BinaryBookListStorage|cannot load books
+2016-07-18 17:03:01.3487|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-18 17:03:01.3957|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-18 17:03:01.3957|INFO|Task04Logic.BookListService|book Author: q; Title: r; Number of pages: 1; Year of publishing: 2 has been added
+2016-07-18 17:03:01.3957|INFO|Task04Logic.BookListService|book Author: q; Title: t; Number of pages: 4; Year of publishing: 2 has been added
+2016-07-18 17:03:01.4137|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-18 17:03:01.4137|INFO|Task04Logic.BookListService|book Author: q; Title: r; Number of pages: 1; Year of publishing: 2 was found in list
+2016-07-18 17:03:01.4137|ERROR|Task04Logic.BookListService|no such book
+2016-07-18 17:03:01.4327|INFO|Task04Logic.BinaryBookListStorage|list has been saved to file
+2016-07-18 17:04:52.8203|INFO|Task04Logic.BookListService|book Author: q; Title: t; Number of pages: 4; Year of publishing: 2 has been added
+2016-07-18 17:04:52.8723|INFO|Task04Logic.BinaryBookListStorage|list has been saved to file
+2016-07-18 17:04:52.8793|INFO|Task04Logic.BinaryBookListStorage|list has been loaded from file
+2016-07-18 17:05:03.3077|INFO|Task04Logic.BookListService|book Author: q; Title: tttt; Number of pages: 4; Year of publishing: 2 has been added
+2016-07-18 17:05:03.3367|INFO|Task04Logic.BinaryBookListStorage|list has been saved to file
+2016-07-18 17:05:03.3367|INFO|Task04Logic.BinaryBookListStorage|list has been loaded from file
+2016-07-18 17:05:30.7626|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-18 17:05:30.7966|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-18 17:05:30.7966|INFO|Task04Logic.BookListService|book Author: q; Title: r; Number of pages: 1; Year of publishing: 2 has been added
+2016-07-18 17:05:30.8036|INFO|Task04Logic.BookListService|book Author: q; Title: tttt; Number of pages: 4; Year of publishing: 2 has been added
+2016-07-18 17:05:30.8036|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-18 17:05:30.8036|INFO|Task04Logic.BookListService|book Author: q; Title: r; Number of pages: 1; Year of publishing: 2 was found in list
+2016-07-18 17:05:30.8166|ERROR|Task04Logic.BookListService|no such book
+2016-07-18 17:05:30.8166|INFO|Task04Logic.BinaryBookListStorage|list has been saved to file
+2016-07-18 17:05:30.8166|INFO|Task04Logic.BinaryBookListStorage|list has been loaded from file
+2016-07-18 17:32:18.0674|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-18 17:32:18.1474|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-18 17:32:18.1474|INFO|Task04Logic.BookListService|book Author: q; Title: r; Number of pages: 1; Year of publishing: 2 has been added
+2016-07-18 17:32:18.1474|INFO|Task04Logic.BookListService|book Author: q; Title: t; Number of pages: 4; Year of publishing: 2 has been added
+2016-07-18 17:32:18.1644|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-18 17:32:18.1644|INFO|Task04Logic.BookListService|book Author: q; Title: r; Number of pages: 1; Year of publishing: 2 was found in list
+2016-07-18 17:32:18.2034|ERROR|Task04Logic.BookListService|no such book
+2016-07-18 17:33:17.1957|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-18 17:33:17.2428|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-18 17:33:17.2428|INFO|Task04Logic.BookListService|book Author: q; Title: r; Number of pages: 1; Year of publishing: 2 has been added
+2016-07-18 17:33:17.2428|INFO|Task04Logic.BookListService|book Author: q; Title: t; Number of pages: 4; Year of publishing: 2 has been added
+2016-07-18 17:33:17.2588|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-18 17:33:17.2588|INFO|Task04Logic.BookListService|book Author: q; Title: r; Number of pages: 1; Year of publishing: 2 was found in list
+2016-07-18 17:33:17.2718|ERROR|Task04Logic.BookListService|no such book
+2016-07-18 17:33:17.2718|INFO|Task04Logic.BinaryBookListStorage|list has been saved to file
+2016-07-18 17:35:18.1147|INFO|Task04Logic.BinaryBookListStorage|list has been loaded from file
+2016-07-18 17:35:18.2558|INFO|Task04Logic.BookListService|books already contains the book Author: q; Title: w; Number of pages: 6; Year of publishing: 2
+2016-07-18 17:35:18.2718|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-18 17:35:18.2868|INFO|Task04Logic.BookListService|book Author: q; Title: ghj; Number of pages: 4; Year of publishing: 3 has been added
+2016-07-18 17:35:18.3028|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-18 17:35:18.3178|ERROR|Task04Logic.BookListService|no such book
+2016-07-18 17:35:18.3569|INFO|Task04Logic.BinaryBookListStorage|list has been saved to file
+2016-07-18 17:35:18.3879|INFO|Task04Logic.BinaryBookListStorage|list has been loaded from file
+2016-07-18 17:35:37.2460|INFO|Task04Logic.BinaryBookListStorage|list has been loaded from file
+2016-07-18 17:35:37.4301|INFO|Task04Logic.BookListService|books already contains the book Author: q; Title: w; Number of pages: 6; Year of publishing: 2
+2016-07-18 17:35:37.4301|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-18 17:35:37.4422|INFO|Task04Logic.BookListService|books already contains the book Author: q; Title: ghj; Number of pages: 4; Year of publishing: 3
+2016-07-18 17:35:37.4832|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-18 17:35:37.4892|ERROR|Task04Logic.BookListService|no such book
+2016-07-18 17:35:37.4892|INFO|Task04Logic.BinaryBookListStorage|list has been saved to file
+2016-07-18 17:35:37.4892|INFO|Task04Logic.BinaryBookListStorage|list has been loaded from file
+2016-07-18 17:41:00.6390|ERROR|Task04Logic.BinaryBookListStorage|cannot load books
+2016-07-18 17:41:00.7331|INFO|Task04Logic.BookListService|no list
+2016-07-18 17:41:00.7501|INFO|Task04Logic.BookListService|no list
+2016-07-18 17:41:00.7721|INFO|Task04Logic.BookListService|no list
+2016-07-18 17:41:00.8101|INFO|Task04Logic.BookListService|no list
+2016-07-18 17:41:00.8542|INFO|Task04Logic.BookListService|no list
+2016-07-18 17:41:01.0183|INFO|Task04Logic.BinaryBookListStorage|cannot save books to file
+2016-07-18 17:41:01.0613|ERROR|Task04Logic.BinaryBookListStorage|cannot load books
+2016-07-18 17:41:41.1494|ERROR|Task04Logic.BinaryBookListStorage|cannot load books
+2016-07-18 17:41:41.4917|INFO|Task04Logic.BookListService|no list
+2016-07-18 17:41:41.5067|INFO|Task04Logic.BookListService|no list
+2016-07-18 17:41:41.5227|INFO|Task04Logic.BookListService|no list
+2016-07-18 17:42:12.2001|ERROR|Task04Logic.BinaryBookListStorage|cannot load books
+2016-07-18 17:42:12.2281|INFO|Task04Logic.BookListService|no list
+2016-07-18 17:42:12.2281|INFO|Task04Logic.BookListService|no list
+2016-07-18 17:42:12.2441|INFO|Task04Logic.BookListService|no list
+2016-07-18 17:44:58.0582|INFO|Task04Logic.BinaryBookListStorage|list has been loaded from file
+2016-07-18 17:44:58.0942|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-18 17:44:58.1022|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-18 17:44:58.1142|INFO|Task04Logic.BookListService|book Author: q; Title: ghj; Number of pages: 4; Year of publishing: 3 has been added
+2016-07-18 17:45:02.9151|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-18 17:45:02.9351|ERROR|Task04Logic.BookListService|no such book
+2016-07-18 17:45:02.9751|INFO|Task04Logic.BinaryBookListStorage|list has been saved to file
+2016-07-18 17:45:02.9911|INFO|Task04Logic.BinaryBookListStorage|list has been loaded from file
+2016-07-18 17:45:45.6480|INFO|Task04Logic.BinaryBookListStorage|list has been loaded from file
+2016-07-18 17:45:45.7130|INFO|Task04Logic.BookListService|books already contains the book Author: q; Title: w; Number of pages: 6; Year of publishing: 2
+2016-07-18 17:45:45.7130|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-18 17:45:45.7250|INFO|Task04Logic.BookListService|book Author: q; Title: g; Number of pages: 4; Year of publishing: 3 has been added
+2016-07-18 17:45:47.5467|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-18 17:45:47.5667|ERROR|Task04Logic.BookListService|no such book
+2016-07-18 17:45:47.5987|INFO|Task04Logic.BinaryBookListStorage|list has been saved to file
+2016-07-18 17:45:47.6147|INFO|Task04Logic.BinaryBookListStorage|list has been loaded from file

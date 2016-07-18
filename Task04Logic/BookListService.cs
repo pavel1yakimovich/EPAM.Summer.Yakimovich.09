@@ -1,32 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 using NLog;
 
 namespace Task04Logic
 {
-    public sealed class BookListService
+    public class BookListService
     {
         private static Logger logger = LogManager.GetCurrentClassLogger();
-        private readonly IBookListStorage _storage;
-
-        public BookListService(BookListStorageCreator creator, string fileName)
+        private List<Book> bookList;
+        
+        public BookListService(List<Book> books)
         {
-            _storage = creator.Create(fileName);
-            FileStream fs = File.Open(fileName, FileMode.OpenOrCreate);
-            fs.Close();
-        }
-
-        public BookListService(IBookListStorage storage)
-        {
-            _storage = storage;
+            bookList = books;
         }
         /// <summary>
-        /// adds book in storage
+        /// adds book in list
         /// </summary>
         /// <param name="book">book</param>
         public void AddBook(Book book)
@@ -36,24 +24,25 @@ namespace Task04Logic
                 logger.Error("book has null reference");
                 return;
             }
-            List<Book> books = _storage.LoadBooks();
-            if (ReferenceEquals(books, null))
+
+            if (ReferenceEquals(bookList, null))
             {
-                logger.Info("no books in storage");
+                logger.Info("no list");
                 return;
             }
-            if (books.Contains(book))
+
+            if (bookList.Contains(book))
             {
                 logger.Info($"books already contains the book {book}");
                 return;
             }
-            books.Add(book);
-            _storage.SaveBooks(books);
+
+            bookList.Add(book);
             logger.Info($"book {book} has been added");
         }
-  
+
         /// <summary>
-        /// removes book from storage
+        /// removes book from list
         /// </summary>
         /// <param name="book">book</param>
         public void RemoveBook(Book book)
@@ -63,18 +52,19 @@ namespace Task04Logic
                 logger.Error("book has null reference");
                 return;
             }
-            List<Book> books = _storage.LoadBooks();
-            if (ReferenceEquals(books, null))
+
+            if (ReferenceEquals(bookList, null))
             {
-                logger.Info("no books in storage");
+                logger.Info("no list");
                 return;
             }
-            if (!books.Remove(book))
+
+            if (!bookList.Remove(book))
             {
                 logger.Error("no such book");
                 return;
             }
-            _storage.SaveBooks(books);
+
             logger.Info($"book {book} has been deleted");
         }
 
@@ -88,18 +78,17 @@ namespace Task04Logic
         /// <returns></returns>
         public Book FindBookByTag(string author, string title, int pages, int published)
         {
-            List<Book> books = _storage.LoadBooks();
-            if (ReferenceEquals(books, null))
+            if (ReferenceEquals(bookList, null))
             {
-                logger.Info("no books in storage");
+                logger.Info("no list");
                 return null;
             }
             Book temp = new Book(author, title, pages, published);
-            foreach (Book b in books)
+            foreach (Book b in bookList)
             {
                 if (b.Equals(temp))
                 {
-                    logger.Info($"book {b} was found in storage");
+                    logger.Info($"book {b} was found in list");
                     return b;
                 }
             }
@@ -119,14 +108,14 @@ namespace Task04Logic
                 logger.Error("comparison reference is null");
                 return;
             }
-            List<Book> books = _storage.LoadBooks();
-            if (ReferenceEquals(books, null))
+
+            if (ReferenceEquals(bookList, null))
             {
-                logger.Info("no books in storage");
+                logger.Info("no list");
                 return;
             }
-            books.Sort(comparison);
-            _storage.SaveBooks(books);
+
+            bookList.Sort(comparison);
             logger.Info("Books have been sorted");
         }
     }

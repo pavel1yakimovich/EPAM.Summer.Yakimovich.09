@@ -14,25 +14,29 @@ namespace Task04UI
         {
             Book book1 = new Book("q", "w", 6, 2);
             Book book2 = new Book("q", "e", 3, 2);
-            Book book3 = new Book("q", "r", 1, 2);
-            Book book4 = new Book("q", "t", 4, 2);
-            Book book5 = new Book("q", "ghj", 4, 3);
+            Book book6 = new Book("q", "g", 4, 3);
 
-            string fileName = "source.txt";
+            string fileName = "source";
             
             BookListStorageCreator creator = new BinaryBookListStorageCreator();
-            BookListService service = new BookListService(creator, fileName);
+            IBookListStorage storage = creator.Create(fileName);
+
+            List<Book> books = storage.LoadBooks();
+            BookListService service = new BookListService(books);
 
             service.AddBook(book1);
             service.AddBook(book2);
-            service.AddBook(book3);
-            service.AddBook(book4);
+            service.AddBook(book6);
 
             service.RemoveBook(book2);
+            service.RemoveBook(book2);
 
-            Console.WriteLine(service.FindBookByTag(book3.Author, book3.Title, 
-                book3.Pages, book3.Published));
-            service.RemoveBook(book5);
+            storage.SaveBooks(books);
+
+            books = storage.LoadBooks();
+
+            foreach (Book b in books)
+                Console.WriteLine(b);
 
             Console.ReadKey();
 

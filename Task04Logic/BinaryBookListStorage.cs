@@ -16,6 +16,8 @@ namespace Task04Logic
         public BinaryBookListStorage(string fileName)
         {
             _fileName = fileName;
+            FileStream fs = File.Open(fileName, FileMode.OpenOrCreate);
+            fs.Close();
         }
         /// <summary>
         /// loads books from file
@@ -40,7 +42,7 @@ namespace Task04Logic
                 }
 
                 r.Close();
-                logger.Info("books have been loaded from file");
+                logger.Info("list has been loaded from file");
                 return books;
             }
             catch (Exception e)
@@ -71,7 +73,7 @@ namespace Task04Logic
 
                 w.Close();
 
-                logger.Info("book have been saved to file");
+                logger.Info("list has been saved to file");
             }
             catch (Exception e)
             {
