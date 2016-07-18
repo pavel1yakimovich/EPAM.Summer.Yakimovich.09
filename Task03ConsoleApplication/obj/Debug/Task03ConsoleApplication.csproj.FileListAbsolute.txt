@@ -1,0 +1,5 @@
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task03ConsoleApplication\bin\Debug\Task03ConsoleApplication.exe.config
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task03ConsoleApplication\bin\Debug\Task03ConsoleApplication.exe
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task03ConsoleApplication\bin\Debug\Task03ConsoleApplication.pdb
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task03ConsoleApplication\obj\Debug\Task03ConsoleApplication.exe
+E:\Trainings EPAM\Day 09\EPAM.Summer.Yakimovich.09\Task03ConsoleApplication\obj\Debug\Task03ConsoleApplication.pdb
