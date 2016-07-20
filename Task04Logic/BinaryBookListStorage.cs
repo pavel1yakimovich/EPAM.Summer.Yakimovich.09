@@ -50,7 +50,7 @@ namespace Task04Logic
             catch (Exception e)
             {
                 logger.Error(e, "cannot load books");
-                return null;
+                throw e;
             }
         }
 
@@ -79,7 +79,8 @@ namespace Task04Logic
             }
             catch (Exception e)
             {
-                logger.Info(e, "cannot save books to file");
+                logger.Error(e, "cannot save books to file");
+                throw e;
             }
         }
     }

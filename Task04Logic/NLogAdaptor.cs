@@ -1,4 +1,5 @@
-﻿using NLog;
+﻿using System;
+using NLog;
 
 namespace Task04Logic
 {
@@ -14,6 +15,11 @@ namespace Task04Logic
         public void Error(string msg)
         {
             this.logger.Error(msg);
+        }
+
+        public void Error(Exception e, string msg)
+        {
+            logger.Error(e, msg);
         }
 
         public void Info(string msg)

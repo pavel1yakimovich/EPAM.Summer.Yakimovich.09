@@ -50,6 +50,8 @@
     <Compile Include="BookListService.cs" />
     <Compile Include="BookListStorageCreator.cs" />
     <Compile Include="IBookListStorage.cs" />
+    <Compile Include="ILogger.cs" />
+    <Compile Include="NLogAdaptor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

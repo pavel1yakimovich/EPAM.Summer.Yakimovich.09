@@ -29,7 +29,6 @@ namespace Task04UI
             service.AddBook(book6);
 
             service.RemoveBook(book2);
-            service.RemoveBook(book2);
 
             storage.SaveBooks(books);
 
