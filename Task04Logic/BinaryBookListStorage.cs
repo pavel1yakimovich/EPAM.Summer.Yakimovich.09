@@ -10,14 +10,16 @@ namespace Task04Logic
 {
     public class BinaryBookListStorage : IBookListStorage
     {
-        private static Logger logger = LogManager.GetCurrentClassLogger();
+        private static ILogger logger;
         private readonly string _fileName;
 
-        public BinaryBookListStorage(string fileName)
+        public BinaryBookListStorage(string fileName, ILogger log = null)
         {
             _fileName = fileName;
             FileStream fs = File.Open(fileName, FileMode.OpenOrCreate);
             fs.Close();
+            if (ReferenceEquals(log, null))
+                logger = new NLogAdaptor(LogManager.GetCurrentClassLogger());
         }
         /// <summary>
         /// loads books from file

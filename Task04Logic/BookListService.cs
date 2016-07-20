@@ -6,12 +6,19 @@ namespace Task04Logic
 {
     public class BookListService
     {
-        private static Logger logger = LogManager.GetCurrentClassLogger();
+        private static ILogger logger;
         private List<Book> bookList;
         
-        public BookListService(List<Book> books)
+        public BookListService(List<Book> books, ILogger log = null)
         {
+            if (ReferenceEquals(books, null))
+            {
+                logger.Error("NBooks contains null reference");
+                throw new ArgumentNullException();
+            }
             bookList = books;
+            if (ReferenceEquals(log, null))
+                logger = new NLogAdaptor(LogManager.GetCurrentClassLogger());
         }
         /// <summary>
         /// adds book in list
@@ -22,19 +29,13 @@ namespace Task04Logic
             if (ReferenceEquals(book, null))
             {
                 logger.Error("book has null reference");
-                return;
-            }
-
-            if (ReferenceEquals(bookList, null))
-            {
-                logger.Info("no list");
-                return;
+                throw new ArgumentNullException();
             }
 
             if (bookList.Contains(book))
             {
                 logger.Info($"books already contains the book {book}");
-                return;
+                throw new ArgumentException();
             }
 
             bookList.Add(book);
@@ -50,19 +51,13 @@ namespace Task04Logic
             if (ReferenceEquals(book, null))
             {
                 logger.Error("book has null reference");
-                return;
+                throw new ArgumentNullException();
             }
-
-            if (ReferenceEquals(bookList, null))
-            {
-                logger.Info("no list");
-                return;
-            }
-
+            
             if (!bookList.Remove(book))
             {
                 logger.Error("no such book");
-                return;
+                throw new ArgumentException();
             }
 
             logger.Info($"book {book} has been deleted");
@@ -78,10 +73,10 @@ namespace Task04Logic
         /// <returns></returns>
         public Book FindBookByTag(string author, string title, int pages, int published)
         {
-            if (ReferenceEquals(bookList, null))
+            if (author == null || title == null || pages <= 0 || published <= 0)
             {
                 logger.Info("no list");
-                return null;
+                throw new ArgumentNullException();
             }
             Book temp = new Book(author, title, pages, published);
             foreach (Book b in bookList)
@@ -94,7 +89,7 @@ namespace Task04Logic
             }
 
             logger.Error("no such book");
-            return null;
+            throw new ArgumentException();
         }
 
         /// <summary>
@@ -106,15 +101,9 @@ namespace Task04Logic
             if (ReferenceEquals(comparison, null))
             {
                 logger.Error("comparison reference is null");
-                return;
+                throw new ArgumentNullException();
             }
-
-            if (ReferenceEquals(bookList, null))
-            {
-                logger.Info("no list");
-                return;
-            }
-
+            
             bookList.Sort(comparison);
             logger.Info("Books have been sorted");
         }
