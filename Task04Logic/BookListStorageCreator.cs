@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,6 @@ namespace Task04Logic
     /// </summary>
     public abstract class BookListStorageCreator
     {
-        public abstract IBookListStorage Create(string fileName);
+        public abstract IBookListStorage Create(string fileName, ILogger logger = null, IFormatter formatter = null);
     }
 }

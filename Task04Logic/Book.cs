@@ -3,18 +3,63 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace Task04Logic
 {
+    [Serializable]
     public sealed class Book : IEquatable<Book>, IComparable<Book>, IComparable
     {
-        public string Author { get; }
+        private string _author, _title;
+        private int _pages, _published;
 
-        public string Title { get; }
+        public string Author
+        {
+            get { return _author; }
+            set
+            {
+                if (ReferenceEquals(value, null))
+                    throw new ArgumentNullException();
+                _author = value;
+            }
+        }
 
-        public int Pages { get; }
+        public string Title {
+            get { return _title; }
+            set
+            {
+                if (ReferenceEquals(value, null))
+                    throw new ArgumentNullException();
+                _title = value;
+            }
+        }
 
-        public int Published { get; }
+        public int Pages
+        {
+            get { return _pages; }
+            set
+            {
+                if (value <= 0)
+                    throw new ArgumentException();
+                _pages = value;
+            }
+            
+        }
+
+        public int Published
+        {
+            get { return _published; }
+            set
+            {
+                if (value <= 0)
+                    throw new ArgumentException();
+                _published = value;
+            }
+
+        }
+
+        public Book() { }
 
         public Book(string author, string title, int pages, int published)
         {
@@ -66,8 +111,8 @@ namespace Task04Logic
         {
             int hashcode = Author.GetHashCode();
             hashcode = 31*hashcode + Title.GetHashCode();
-            hashcode = 31*hashcode + Pages.GetHashCode();
-            hashcode = 31*hashcode + Published.GetHashCode();
+            hashcode = 31*hashcode + Pages;
+            hashcode = 31*hashcode + Published;
             return hashcode;
         }
     }

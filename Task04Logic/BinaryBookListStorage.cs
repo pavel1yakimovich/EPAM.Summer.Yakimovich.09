@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 using NLog;
@@ -12,12 +13,19 @@ namespace Task04Logic
     {
         private static ILogger logger;
         private readonly string _fileName;
+        private BinaryFormatter formatter;
 
-        public BinaryBookListStorage(string fileName, ILogger log = null)
+        public BinaryBookListStorage(string fileName, ILogger log = null, BinaryFormatter formatter = null)
         {
+            if (fileName == null)
+                throw new ArgumentNullException();
+
             _fileName = fileName;
-            FileStream fs = File.Open(fileName, FileMode.OpenOrCreate);
+            FileStream fs = new FileStream(fileName, FileMode.OpenOrCreate);
             fs.Close();
+
+            this.formatter = formatter;
+
             if (ReferenceEquals(log, null))
                 logger = new NLogAdaptor(LogManager.GetCurrentClassLogger());
         }
@@ -33,18 +41,30 @@ namespace Task04Logic
                 FileStream fs = File.OpenRead(_fileName);
                 var r = new BinaryReader(fs);
 
-                while (r.PeekChar() > -1)
+                if (ReferenceEquals(formatter, null))
                 {
-                    string author = r.ReadString();
-                    string title = r.ReadString();
-                    int pages = r.ReadInt32();
-                    int published = r.ReadInt32();
 
-                    books.Add(new Book(author, title, pages, published));
+                    while (r.PeekChar() > -1)
+                    {
+                        string author = r.ReadString();
+                        string title = r.ReadString();
+                        int pages = r.ReadInt32();
+                        int published = r.ReadInt32();
+
+                        books.Add(new Book(author, title, pages, published));
+                    }
+
+                    r.Close();
+                    logger.Info("list has been loaded from file");
+                    return books;
                 }
 
-                r.Close();
-                logger.Info("list has been loaded from file");
+                while (fs.Position < fs.Length)
+                {
+                    var book = (Book) formatter.Deserialize(fs);
+                    books.Add(book);
+                }
+
                 return books;
             }
             catch (Exception e)
@@ -65,14 +85,23 @@ namespace Task04Logic
                 FileStream fs = File.OpenWrite(_fileName);
                 BinaryWriter w = new BinaryWriter(fs);
 
-                foreach (Book b in books)
+                if (ReferenceEquals(formatter, null))
                 {
-                    w.Write(b.Author);
-                    w.Write(b.Title);
-                    w.Write(b.Pages);
-                    w.Write(b.Published);
+                    foreach (Book b in books)
+                    {
+                        w.Write(b.Author);
+                        w.Write(b.Title);
+                        w.Write(b.Pages);
+                        w.Write(b.Published);
+                    }
                 }
-
+                else
+                {
+                    foreach (var book in books)
+                    {
+                        formatter.Serialize(fs, book);
+                    }
+                }
                 w.Close();
 
                 logger.Info("list has been saved to file");

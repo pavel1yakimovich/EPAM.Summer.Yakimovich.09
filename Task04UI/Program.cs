@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 using Task04Logic;
@@ -19,18 +20,15 @@ namespace Task04UI
             string fileName = "source";
             
             BookListStorageCreator creator = new BinaryBookListStorageCreator();
-            IBookListStorage storage = creator.Create(fileName);
+            IBookListStorage storage = creator.Create(fileName, formatter: new BinaryFormatter());
 
-            List<Book> books = storage.LoadBooks();
-            BookListService service = new BookListService(books);
+            List<Book> books = new List<Book>();
+            BookListService service = new BookListService(books, storage);
 
             service.AddBook(book1);
             service.AddBook(book2);
-            service.AddBook(book6);
 
-            service.RemoveBook(book2);
-
-            storage.SaveBooks(books);
+            service.Save();
 
             books = storage.LoadBooks();
 

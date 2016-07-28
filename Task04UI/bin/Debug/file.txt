@@ -5,3 +5,156 @@
 2016-07-20 18:24:42.8298|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
 2016-07-20 18:24:42.8918|INFO|Task04Logic.BinaryBookListStorage|list has been saved to file
 2016-07-20 18:24:42.8918|INFO|Task04Logic.BinaryBookListStorage|list has been loaded from file
+2016-07-26 21:27:01.3270|ERROR|Task04Logic.XMLBookListStorage|Cannot load books from XML file
+2016-07-26 21:28:29.9736|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-26 21:28:30.0446|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-26 21:28:30.0446|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-26 21:28:30.2918|ERROR|Task04Logic.XMLBookListStorage|Cannot save books to XML file
+2016-07-26 21:29:36.6415|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-26 21:29:36.6836|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-26 21:29:42.4782|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-26 21:30:30.0087|ERROR|Task04Logic.XMLBookListStorage|Cannot save books to XML file
+2016-07-26 21:32:25.6862|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-26 21:32:25.7262|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-26 21:32:28.3160|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-26 21:32:28.4184|ERROR|Task04Logic.XMLBookListStorage|Cannot save books to XML file
+2016-07-26 21:34:19.7954|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-26 21:34:19.9905|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-26 21:34:24.6960|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-26 21:34:50.0261|ERROR|Task04Logic.XMLBookListStorage|Cannot save books to XML file
+2016-07-26 21:35:55.8906|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-26 21:35:55.9486|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-26 21:35:59.6671|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-26 21:36:02.6713|ERROR|Task04Logic.XMLBookListStorage|Cannot save books to XML file
+2016-07-26 21:36:33.4848|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-26 21:36:33.5138|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-26 21:36:33.5138|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-26 21:36:40.2642|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-26 21:36:46.9191|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-26 21:39:18.8268|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-26 21:39:18.8628|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-26 21:39:18.8628|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-26 21:39:19.0429|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-26 21:39:19.0489|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-26 21:43:52.4677|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-26 21:43:52.5097|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-26 21:43:52.5157|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-26 21:50:25.2197|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-26 21:50:25.2868|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-26 21:50:25.2868|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-26 21:51:18.9655|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 20:26:08.2345|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 20:26:08.2665|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 20:26:08.2665|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-28 20:26:09.0860|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 20:26:09.1050|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 20:26:16.1717|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 20:26:16.2007|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 20:26:16.2007|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-28 20:26:16.2898|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 20:26:16.2958|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 20:27:35.1898|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 20:27:35.2779|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 20:27:35.3029|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-28 20:27:35.5401|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 20:27:35.5551|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 20:28:07.5329|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 20:28:07.6200|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 20:28:07.6410|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-28 20:28:07.9322|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 20:28:07.9432|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 20:29:23.5155|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 20:29:23.5795|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 20:29:23.5795|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-28 20:30:03.0668|ERROR|Task04Logic.XMLBookListStorage|Cannot save books to XML file
+2016-07-28 20:30:28.4975|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 20:30:28.6476|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 20:30:28.6636|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-28 20:31:36.1988|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 20:31:48.2680|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 20:33:46.1242|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 20:33:46.2503|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 20:33:46.2723|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-28 20:33:50.3866|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 20:33:50.4246|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 20:33:57.1269|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 20:33:57.1869|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 20:33:57.1869|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-28 20:34:00.5031|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 20:34:00.5251|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 20:34:21.6232|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 20:34:21.6623|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 20:34:21.6623|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been deleted
+2016-07-28 20:34:25.7794|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 20:34:25.7794|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 20:35:02.4970|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 20:35:02.5671|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 20:35:02.8873|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 20:35:02.9163|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 20:43:41.3612|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 20:43:41.3822|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 20:43:41.4712|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 20:43:41.4892|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 20:44:34.1034|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 20:44:36.2379|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 20:45:07.6191|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 20:45:16.7635|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 20:46:27.5018|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 20:46:28.0142|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 20:46:28.9182|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 20:46:28.9235|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 20:52:13.4742|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 20:52:13.5443|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 20:52:13.8905|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 20:52:13.9075|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 20:53:42.0903|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 20:53:42.1984|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 20:53:42.6907|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 20:53:42.7158|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 20:56:34.9663|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 20:56:35.0143|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 20:56:35.2885|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 20:56:35.3055|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 20:57:22.9835|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 20:57:23.0256|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 20:57:23.1436|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 20:57:23.1436|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 20:57:48.8897|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 20:57:48.9528|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 20:58:01.4944|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 20:58:21.8205|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 20:59:09.8278|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 20:59:09.8498|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 20:59:13.9860|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 20:59:19.0261|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 20:59:59.7322|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 20:59:59.7713|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 21:00:02.4185|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 21:00:02.4245|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 21:01:02.8880|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 21:01:02.9230|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 21:01:04.9594|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 21:01:04.9734|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 21:05:00.7490|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 21:05:00.7990|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 21:05:03.1788|INFO|Task04Logic.XMLBookListStorage|Books have been saved to XML file
+2016-07-28 21:05:03.2118|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 21:19:10.9429|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 21:19:11.0650|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 21:19:11.1060|INFO|Task04Logic.BinaryBookListStorage|list has been saved to file
+2016-07-28 21:19:11.1290|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 21:19:11.2601|ERROR|Task04Logic.BinaryBookListStorage|cannot load books
+2016-07-28 21:19:51.0075|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 21:19:51.2127|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 21:19:51.2327|INFO|Task04Logic.BinaryBookListStorage|list has been saved to file
+2016-07-28 21:19:51.2477|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 21:20:26.9694|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 21:21:54.2126|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 21:21:55.4967|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 21:21:56.5487|INFO|Task04Logic.BinaryBookListStorage|list has been saved to file
+2016-07-28 21:21:56.5657|INFO|Task04Logic.BookListService|Books have been saved
+2016-07-28 21:22:04.2103|INFO|Task04Logic.BinaryBookListStorage|list has been loaded from file
+2016-07-28 21:30:00.5044|INFO|Task04Logic.BookListService|book Author: q; Title: w; Number of pages: 6; Year of publishing: 2 has been added
+2016-07-28 21:30:00.5534|INFO|Task04Logic.BookListService|book Author: q; Title: e; Number of pages: 3; Year of publishing: 2 has been added
+2016-07-28 21:30:00.5664|INFO|Task04Logic.BinaryBookListStorage|list has been saved to file
+2016-07-28 21:30:00.5664|INFO|Task04Logic.BookListService|Books have been saved

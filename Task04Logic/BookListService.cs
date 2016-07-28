@@ -8,8 +8,9 @@ namespace Task04Logic
     {
         private static ILogger logger;
         private List<Book> bookList;
+        private IBookListStorage storage { get; set; }
         
-        public BookListService(List<Book> books, ILogger log = null)
+        public BookListService(List<Book> books, IBookListStorage storage = null, ILogger log = null)
         {
             if (ReferenceEquals(books, null))
             {
@@ -19,6 +20,7 @@ namespace Task04Logic
             bookList = books;
             if (ReferenceEquals(log, null))
                 logger = new NLogAdaptor(LogManager.GetCurrentClassLogger());
+            this.storage = storage;
         }
         /// <summary>
         /// adds book in list
@@ -106,6 +108,30 @@ namespace Task04Logic
             
             bookList.Sort(comparison);
             logger.Info("Books have been sorted");
+        }
+
+        public void Save()
+        {
+            if (ReferenceEquals(storage, null))
+            {
+                logger.Error("You have no storage registered");
+                throw new InvalidOperationException();
+            }
+
+            storage.SaveBooks(bookList);
+            logger.Info("Books have been saved");
+        }
+
+        public void LoadBooks()
+        {
+            if (ReferenceEquals(storage, null))
+            {
+                logger.Error("You have no storage registered");
+                throw new InvalidOperationException();
+            }
+
+            bookList = storage.LoadBooks();
+            logger.Info("Books have been loaded");
         }
     }
 }
